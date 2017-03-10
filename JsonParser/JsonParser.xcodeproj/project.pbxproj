@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30180FE01E122BB600D44A7C /* BookTheme.json in Resources */ = {isa = PBXBuildFile; fileRef = 30180FDF1E122BB600D44A7C /* BookTheme.json */; };
+		30180FE31E122D9900D44A7C /* JsonLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 30180FE21E122D9900D44A7C /* JsonLoader.m */; };
+		30180FE81E124C6000D44A7C /* LocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 30180FE71E124C6000D44A7C /* LocationModel.m */; };
+		30D9F73C1E111AD500A156CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D9F73B1E111AD500A156CF /* main.m */; };
+		30D9F73F1E111AD500A156CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D9F73E1E111AD500A156CF /* AppDelegate.m */; };
+		30D9F7421E111AD500A156CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D9F7411E111AD500A156CF /* ViewController.m */; };
+		30D9F7451E111AD500A156CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D9F7431E111AD500A156CF /* Main.storyboard */; };
+		30D9F7471E111AD500A156CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D9F7461E111AD500A156CF /* Assets.xcassets */; };
+		30D9F74A1E111AD500A156CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D9F7481E111AD500A156CF /* LaunchScreen.storyboard */; };
+		30D9F7551E111AD500A156CF /* JsonParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D9F7541E111AD500A156CF /* JsonParserTests.m */; };
+		30D9F7601E111AD500A156CF /* JsonParserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D9F75F1E111AD500A156CF /* JsonParserUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30D9F7511E111AD500A156CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30D9F72F1E111AD500A156CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30D9F7361E111AD500A156CF;
+			remoteInfo = JsonParser;
+		};
+		30D9F75C1E111AD500A156CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30D9F72F1E111AD500A156CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30D9F7361E111AD500A156CF;
+			remoteInfo = JsonParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30180FDF1E122BB600D44A7C /* BookTheme.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BookTheme.json; sourceTree = "<group>"; };
+		30180FE11E122D9900D44A7C /* JsonLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonLoader.h; sourceTree = "<group>"; };
+		30180FE21E122D9900D44A7C /* JsonLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonLoader.m; sourceTree = "<group>"; };
+		30180FE61E124C6000D44A7C /* LocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationModel.h; sourceTree = "<group>"; };
+		30180FE71E124C6000D44A7C /* LocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationModel.m; sourceTree = "<group>"; };
+		30D9F7371E111AD500A156CF /* JsonParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D9F73B1E111AD500A156CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30D9F73D1E111AD500A156CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30D9F73E1E111AD500A156CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30D9F7401E111AD500A156CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30D9F7411E111AD500A156CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30D9F7441E111AD500A156CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30D9F7461E111AD500A156CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30D9F7491E111AD500A156CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30D9F74B1E111AD500A156CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D9F7501E111AD500A156CF /* JsonParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D9F7541E111AD500A156CF /* JsonParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonParserTests.m; sourceTree = "<group>"; };
+		30D9F7561E111AD500A156CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D9F75B1E111AD500A156CF /* JsonParserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonParserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D9F75F1E111AD500A156CF /* JsonParserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonParserUITests.m; sourceTree = "<group>"; };
+		30D9F7611E111AD500A156CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30D9F7341E111AD500A156CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D9F74D1E111AD500A156CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D9F7581E111AD500A156CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30D9F72E1E111AD500A156CF = {
+			isa = PBXGroup;
+			children = (
+				30D9F7391E111AD500A156CF /* JsonParser */,
+				30D9F7531E111AD500A156CF /* JsonParserTests */,
+				30D9F75E1E111AD500A156CF /* JsonParserUITests */,
+				30D9F7381E111AD500A156CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30D9F7381E111AD500A156CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30D9F7371E111AD500A156CF /* JsonParser.app */,
+				30D9F7501E111AD500A156CF /* JsonParserTests.xctest */,
+				30D9F75B1E111AD500A156CF /* JsonParserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30D9F7391E111AD500A156CF /* JsonParser */ = {
+			isa = PBXGroup;
+			children = (
+				30180FDF1E122BB600D44A7C /* BookTheme.json */,
+				30D9F73D1E111AD500A156CF /* AppDelegate.h */,
+				30D9F73E1E111AD500A156CF /* AppDelegate.m */,
+				30D9F7401E111AD500A156CF /* ViewController.h */,
+				30D9F7411E111AD500A156CF /* ViewController.m */,
+				30D9F7431E111AD500A156CF /* Main.storyboard */,
+				30D9F7461E111AD500A156CF /* Assets.xcassets */,
+				30D9F7481E111AD500A156CF /* LaunchScreen.storyboard */,
+				30D9F74B1E111AD500A156CF /* Info.plist */,
+				30D9F73A1E111AD500A156CF /* Supporting Files */,
+				30180FE11E122D9900D44A7C /* JsonLoader.h */,
+				30180FE21E122D9900D44A7C /* JsonLoader.m */,
+				30180FE61E124C6000D44A7C /* LocationModel.h */,
+				30180FE71E124C6000D44A7C /* LocationModel.m */,
+			);
+			path = JsonParser;
+			sourceTree = "<group>";
+		};
+		30D9F73A1E111AD500A156CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30D9F73B1E111AD500A156CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30D9F7531E111AD500A156CF /* JsonParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				30D9F7541E111AD500A156CF /* JsonParserTests.m */,
+				30D9F7561E111AD500A156CF /* Info.plist */,
+			);
+			path = JsonParserTests;
+			sourceTree = "<group>";
+		};
+		30D9F75E1E111AD500A156CF /* JsonParserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30D9F75F1E111AD500A156CF /* JsonParserUITests.m */,
+				30D9F7611E111AD500A156CF /* Info.plist */,
+			);
+			path = JsonParserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30D9F7361E111AD500A156CF /* JsonParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D9F7641E111AD500A156CF /* Build configuration list for PBXNativeTarget "JsonParser" */;
+			buildPhases = (
+				30D9F7331E111AD500A156CF /* Sources */,
+				30D9F7341E111AD500A156CF /* Frameworks */,
+				30D9F7351E111AD500A156CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JsonParser;
+			productName = JsonParser;
+			productReference = 30D9F7371E111AD500A156CF /* JsonParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30D9F74F1E111AD500A156CF /* JsonParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D9F7671E111AD500A156CF /* Build configuration list for PBXNativeTarget "JsonParserTests" */;
+			buildPhases = (
+				30D9F74C1E111AD500A156CF /* Sources */,
+				30D9F74D1E111AD500A156CF /* Frameworks */,
+				30D9F74E1E111AD500A156CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30D9F7521E111AD500A156CF /* PBXTargetDependency */,
+			);
+			name = JsonParserTests;
+			productName = JsonParserTests;
+			productReference = 30D9F7501E111AD500A156CF /* JsonParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30D9F75A1E111AD500A156CF /* JsonParserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D9F76A1E111AD500A156CF /* Build configuration list for PBXNativeTarget "JsonParserUITests" */;
+			buildPhases = (
+				30D9F7571E111AD500A156CF /* Sources */,
+				30D9F7581E111AD500A156CF /* Frameworks */,
+				30D9F7591E111AD500A156CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30D9F75D1E111AD500A156CF /* PBXTargetDependency */,
+			);
+			name = JsonParserUITests;
+			productName = JsonParserUITests;
+			productReference = 30D9F75B1E111AD500A156CF /* JsonParserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30D9F72F1E111AD500A156CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = magic;
+				TargetAttributes = {
+					30D9F7361E111AD500A156CF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					30D9F74F1E111AD500A156CF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30D9F7361E111AD500A156CF;
+					};
+					30D9F75A1E111AD500A156CF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30D9F7361E111AD500A156CF;
+					};
+				};
+			};
+			buildConfigurationList = 30D9F7321E111AD500A156CF /* Build configuration list for PBXProject "JsonParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30D9F72E1E111AD500A156CF;
+			productRefGroup = 30D9F7381E111AD500A156CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30D9F7361E111AD500A156CF /* JsonParser */,
+				30D9F74F1E111AD500A156CF /* JsonParserTests */,
+				30D9F75A1E111AD500A156CF /* JsonParserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30D9F7351E111AD500A156CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30180FE01E122BB600D44A7C /* BookTheme.json in Resources */,
+				30D9F74A1E111AD500A156CF /* LaunchScreen.storyboard in Resources */,
+				30D9F7471E111AD500A156CF /* Assets.xcassets in Resources */,
+				30D9F7451E111AD500A156CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D9F74E1E111AD500A156CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D9F7591E111AD500A156CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30D9F7331E111AD500A156CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30180FE31E122D9900D44A7C /* JsonLoader.m in Sources */,
+				30180FE81E124C6000D44A7C /* LocationModel.m in Sources */,
+				30D9F7421E111AD500A156CF /* ViewController.m in Sources */,
+				30D9F73F1E111AD500A156CF /* AppDelegate.m in Sources */,
+				30D9F73C1E111AD500A156CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D9F74C1E111AD500A156CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D9F7551E111AD500A156CF /* JsonParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D9F7571E111AD500A156CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D9F7601E111AD500A156CF /* JsonParserUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30D9F7521E111AD500A156CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30D9F7361E111AD500A156CF /* JsonParser */;
+			targetProxy = 30D9F7511E111AD500A156CF /* PBXContainerItemProxy */;
+		};
+		30D9F75D1E111AD500A156CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30D9F7361E111AD500A156CF /* JsonParser */;
+			targetProxy = 30D9F75C1E111AD500A156CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30D9F7431E111AD500A156CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30D9F7441E111AD500A156CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30D9F7481E111AD500A156CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30D9F7491E111AD500A156CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30D9F7621E111AD500A156CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30D9F7631E111AD500A156CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30D9F7651E111AD500A156CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JsonParser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magicsw.JsonParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30D9F7661E111AD500A156CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JsonParser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magicsw.JsonParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		30D9F7681E111AD500A156CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JsonParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magicsw.JsonParserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JsonParser.app/JsonParser";
+			};
+			name = Debug;
+		};
+		30D9F7691E111AD500A156CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JsonParserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magicsw.JsonParserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JsonParser.app/JsonParser";
+			};
+			name = Release;
+		};
+		30D9F76B1E111AD500A156CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JsonParserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magicsw.JsonParserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JsonParser;
+			};
+			name = Debug;
+		};
+		30D9F76C1E111AD500A156CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JsonParserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magicsw.JsonParserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JsonParser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30D9F7321E111AD500A156CF /* Build configuration list for PBXProject "JsonParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D9F7621E111AD500A156CF /* Debug */,
+				30D9F7631E111AD500A156CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D9F7641E111AD500A156CF /* Build configuration list for PBXNativeTarget "JsonParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D9F7651E111AD500A156CF /* Debug */,
+				30D9F7661E111AD500A156CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D9F7671E111AD500A156CF /* Build configuration list for PBXNativeTarget "JsonParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D9F7681E111AD500A156CF /* Debug */,
+				30D9F7691E111AD500A156CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D9F76A1E111AD500A156CF /* Build configuration list for PBXNativeTarget "JsonParserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D9F76B1E111AD500A156CF /* Debug */,
+				30D9F76C1E111AD500A156CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30D9F72F1E111AD500A156CF /* Project object */;
+}

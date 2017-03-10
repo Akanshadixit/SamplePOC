@@ -1,0 +1,16 @@
+{
+  "locations": [
+    {
+      "title": "The Pump Room",
+      "place": "Bath",
+      "latitude": 51.38131,
+      "longitude": -2.35959
+    },
+    {
+      "title": "The Eye",
+      "place": "London",
+      "latitude": 51.502866,
+      "longitude": -0.119483
+    }
+ ]
+ }
